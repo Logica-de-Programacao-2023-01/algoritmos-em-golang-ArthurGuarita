@@ -8,9 +8,11 @@ func main() {
 	var money float64
 	fmt.Print("Digite o valor do dinheiro a ser convertido: ")
 	fmt.Scan(&money)
+
 	var tipomoney int
 	fmt.Print("Digite 1 para converter dólar para real, ou digite 2 para converter real para dólar: ")
 	fmt.Scan(&tipomoney)
+
 	if tipomoney == 1 {
 		var valorReal float64
 		valorReal = money * 5.24
